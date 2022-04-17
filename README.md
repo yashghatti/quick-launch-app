@@ -10,3 +10,8 @@ Personal app used for quick launch on android with widget cards
 npm install -g @ionic/cli
 npm install
 ```
+
+## build
+```bash
+npm run build
+```
