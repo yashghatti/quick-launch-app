@@ -1,6 +1,6 @@
-# quick-launch-app
+<img src="./src/assets/images/app_icon_lightning_32.png" height="100">
 
-![app_icon_lightning_32.png](./src/assets/images/app_icon_lightning_32.png)
+# quick-launch-app
 
 Personal app used for quick launch on android with widget cards
 
