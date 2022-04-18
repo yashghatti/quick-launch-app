@@ -8,10 +8,12 @@ Personal app used for quick launch on android with widget cards
 
 ```bash
 npm install -g @ionic/cli
-npm install
+sudo cordova-res android resources --skip-config --copy
 ```
 
 ## build
 ```bash
-npm run build
+ionic capacitor build android [--no-open]
+sudo cordova-res android resources --skip-config --copy
 ```
+If cordova-res throws any copy errors just set the whole project folder to '0777' permission

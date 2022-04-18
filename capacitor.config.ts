@@ -1,10 +1,13 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'ionic-app-base',
+  appId: 'ca.yashghatti.quicklaunch',
+  appName: 'QuickLaunch',
   webDir: 'www',
-  bundledWebRuntime: false
+  bundledWebRuntime: false,
+  android: {
+    backgroundColor: '#ffffff'
+  }
 };
 
 export default config;
