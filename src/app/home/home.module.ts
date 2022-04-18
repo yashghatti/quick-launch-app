@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import {WidgetComponent} from "../widget/widget.component";
+import {ScannableContentComponent} from "../scannable-content/scannable-content.component";
 
 
 @NgModule({
@@ -15,6 +16,6 @@ import {WidgetComponent} from "../widget/widget.component";
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage, WidgetComponent]
+  declarations: [HomePage, WidgetComponent, ScannableContentComponent]
 })
 export class HomePageModule {}

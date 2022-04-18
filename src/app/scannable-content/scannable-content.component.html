@@ -1,0 +1,11 @@
+<div [ngClass]="{
+  'ql-collapsible': true,
+  'ql-collapsed': collapsed
+}">
+  <div class="ql-img-content">
+    <ion-img [src]="barcodePath"></ion-img>
+  </div>
+  <div class="ql-icon-container" (click)="toggleCollapse()">
+    <ion-icon name="chevron-up-outline" [ngClass]="{ 'ql-rotated': collapsed, 'ql-rotatable': true }"></ion-icon>
+  </div>
+</div>

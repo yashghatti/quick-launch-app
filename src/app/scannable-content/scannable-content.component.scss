@@ -1,0 +1,29 @@
+.ql-collapsible{
+  .ql-img-content{
+    width: 100%;
+    max-height: 264px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    ion-img{
+      height: auto;
+      max-height: 264px;
+    }
+  }
+
+  .ql-icon-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    ion-icon{
+      font-size: 40px;
+      color: cadetblue;
+    }
+  }
+}
+
+.ql-collapsible.ql-collapsed{
+  .ql-img-content{
+    max-height: 0px;
+  }
+}

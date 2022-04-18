@@ -30,3 +30,9 @@
 * {
   font-family: 'Varela Round', sans-serif;
 }
+.ql-rotatable{
+  transition: transform 0.3s;
+}
+.ql-rotated{
+  transform: rotate(180deg);
+}

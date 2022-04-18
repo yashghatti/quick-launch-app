@@ -1,8 +1,13 @@
-<ion-card>
+<ion-card class="ql-card">
+  <div class="ql-widget-avatar">
+    <ion-avatar>
+      <img [src]="getAvatar()" alt="TH">
+    </ion-avatar>
+  </div>
   <ion-card-header>
-    Hello World
+    {{cardTitle}}
   </ion-card-header>
-  <ion-card-subtitle>
-    Holy Shhit This works
-  </ion-card-subtitle>
+  <ion-card-content>
+    <ng-content></ng-content>
+  </ion-card-content>
 </ion-card>
